@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.masa-kunikata.html5valdialect",
+    "module": "html5valdialect",
+    "version": "3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "qgfogcrlzfgrhnuscfu5j5bpxy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.thymeleaf",
+          "module": "thymeleaf",
+          "version": {
+            "requires": "3.0.7.RELEASE"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-validator",
+          "version": {
+            "requires": "6.0.2.Final"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.9.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.9.1"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.16.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "html5valdialect-3.0.3.jar",
+          "url": "html5valdialect-3.0.3.jar",
+          "size": 39817,
+          "sha512": "0bc17d44712eef2c7ccc519c0018fe5088fbb58ba3a4743d57029b04181624d57d5081a408d0936cc55cf0a9fda3767d3343f7ee7dd5d0eb4f4872d72686e019",
+          "sha256": "3206e585245c71f1ccaa8acd3957b50b1e56e9debad091c74e77ea86d423e92c",
+          "sha1": "3ecb6d08db21d6b39831610cc5c091dd7f301934",
+          "md5": "ec8794347cf3be9aa14e6f229eaa0344"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.thymeleaf",
+          "module": "thymeleaf",
+          "version": {
+            "requires": "3.0.7.RELEASE"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-validator",
+          "version": {
+            "requires": "6.0.2.Final"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.9.1"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.9.1"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.16.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "html5valdialect-3.0.3.jar",
+          "url": "html5valdialect-3.0.3.jar",
+          "size": 39817,
+          "sha512": "0bc17d44712eef2c7ccc519c0018fe5088fbb58ba3a4743d57029b04181624d57d5081a408d0936cc55cf0a9fda3767d3343f7ee7dd5d0eb4f4872d72686e019",
+          "sha256": "3206e585245c71f1ccaa8acd3957b50b1e56e9debad091c74e77ea86d423e92c",
+          "sha1": "3ecb6d08db21d6b39831610cc5c091dd7f301934",
+          "md5": "ec8794347cf3be9aa14e6f229eaa0344"
+        }
+      ]
+    }
+  ]
+}
